@@ -1,0 +1,22 @@
+{
+  "author": "yubin",
+  "name": "napi_openvg",
+  "description": "OpenVG bindings with N-API",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yubin1026/napi_openvg.git"
+  },
+  "homepage": "https://github.com/yubin1026/napi_openvg",
+  "keyword": [
+    "napi",
+    "openvg"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
