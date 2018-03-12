@@ -2,14 +2,14 @@
   "author": "yubin",
   "name": "napi_openvg",
   "description": "OpenVG bindings with N-API",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/yubin1026/napi_openvg.git"
   },
   "homepage": "https://github.com/yubin1026/napi_openvg",
-  "keyword": [
+  "keywords": [
     "napi",
     "openvg"
   ],
@@ -18,5 +18,15 @@
     "node": ">=0.10.0"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/yubin1026/napi_openvg/issues"
+  },
+  "directories": {
+    "example": "examples"
+  }
 }
